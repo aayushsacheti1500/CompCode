@@ -11,6 +11,7 @@ public:
             }
             else return isPalindrome(s,i+1,j) || isPalindrome(s,i,j-1);
         }
+        // This true for those cases when the string is already a palindrome
         return true;
     }
     bool isPalindrome(string s, int i, int j){
