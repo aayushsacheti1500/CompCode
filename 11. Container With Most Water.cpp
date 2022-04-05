@@ -11,3 +11,4 @@ public:
         return area;
     }
 };
+// Won't there be any problem when height[i] = height[j]. Can we break down those cases where this code might not work?
